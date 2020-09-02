@@ -1,0 +1,98 @@
+
+hr{
+    margin: 20px;
+    background-color: #FFFFFF;
+}
+
+p{
+    font-family: Roboto;
+}
+h5{
+    font-family: Roboto;
+}
+
+.uber_eats{
+    display: flex;
+    align-items:flex-end;
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.bottom-content{
+    padding: 30px 30px;
+    background-color: #262626;
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding: 5%;
+}
+.nav{
+    width: 100%;
+}
+.card{
+    width: 30%;
+    padding:5px;
+    
+}
+.bottom{
+    display: flex;
+    justify-content:space-around;
+}
+
+.dropdown-toggle{
+    background-color:#3B3B3B;
+    width:100%;
+    margin: 10px;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+@media(max-width: 992px){
+    .card{
+        width: 47%;
+        margin: 5px;
+    
+    }
+    .cards{
+        display: flex;
+        flex-wrap:wrap;
+        padding: 1%;
+    }
+
+
+}
+@media screen and (max-width: 480px){
+    .card{
+        width: 100%;
+        margin: 0;
+    }
+    .cards{
+        display: flex;
+        flex-wrap:wrap;
+        align-items:flex-end;
+        padding: 0;
+    }
+    .col-md-4{
+        width:100%;
+    }
+    .bottom{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .bottom > p{
+        width:100%;
+    }
+}
+
+.store{
+    display: flex;
+    justify-content:center;
+}
+#store{
+    padding:10px;
+}
